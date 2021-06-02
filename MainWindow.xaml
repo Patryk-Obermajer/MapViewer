@@ -20,10 +20,12 @@
                     </TransformGroup>
                 </Canvas.RenderTransform>
                     
-                <Image Name="image" HorizontalAlignment="Center" VerticalAlignment="Center"
-                   Source="c:\Users\PatrykObermajer\source\repos\WpfApp3\UK_FSR_MAP_VIEWER.png"
+                <Image Name="image" HorizontalAlignment="Center" VerticalAlignment="Center"                 
                    MouseRightButtonDown="Image_MouseRightButtonDown"
                    >
+                    <Image.Source>
+                        <BitmapImage UriSource="UK_FSR_MAP_VIEWER.png" ></BitmapImage>
+                    </Image.Source>
                     <Image.LayoutTransform>
                         <TransformGroup>
                             <ScaleTransform CenterX="0" CenterY="0" ScaleX="0.2" ScaleY=".2"/>

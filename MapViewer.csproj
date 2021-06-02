@@ -6,4 +6,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="UK_FSR_MAP_VIEWER.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="UK_FSR_MAP_VIEWER.png" />
+  </ItemGroup>
+
 </Project>
